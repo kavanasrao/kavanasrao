@@ -49,7 +49,7 @@ Hi, I'm **Kavana S** 🚀
 ## 🌐 Let's Connect
 
 - **Email**: [kavanasuresh2016@gmail.com](mailto:kavanasuresh2016@gmail.com)
-- **GitHub**: [ksrao](https://github.com/ksrao)
+- **GitHub**: [ksrao](https://github.com/kavanasrao)
 - **LinkedIn**: [Kavana S](https://linkedin.com/in/kavana-s)
 - **Medium**: [@KSRao](https://ks-rao.medium.com/)
 
