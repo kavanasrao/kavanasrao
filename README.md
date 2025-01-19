@@ -50,7 +50,7 @@ Hi, I'm **Kavana S** 🚀
 
 - **Email**: [kavanasuresh2016@gmail.com](mailto:kavanasuresh2016@gmail.com)
 - **GitHub**: [ksrao](https://github.com/kavanasrao)
-- **LinkedIn**: [Kavana S](https://linkedin.com/in/kavana-s)
+- **LinkedIn**: [Kavana S](https://www.linkedin.com/in/kavana-s-0759b3175/)
 - **Medium**: [@KSRao](https://ks-rao.medium.com/)
 
 
