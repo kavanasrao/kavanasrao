@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile 👋
 
-# 👋 Welcome to My GitHub Profile — I'm Kavana S
+# I'm Kavana S
 
 A **Physicist turned Backend Developer** — with a deep love for structure, clarity, and logic.
 
