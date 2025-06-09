@@ -29,7 +29,6 @@ A **Physicist turned Backend Developer** — with a deep love for structure, cla
 
 ### 🧰 Tech Stack
 
-```bash
 Languages   : Python, C++, Java  
 Frameworks  : Django, Flask, SpringBoot  
 Databases   : MySQL  
