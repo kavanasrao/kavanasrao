@@ -5,23 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kavana S | Portfolio</title>
   <style>
+    :root {
+      --primary-color: #4a90e2;
+      --accent-color: #50e3c2;
+      --text-color: #333;
+      --bg-color: #f0f4f8;
+      --card-bg: #ffffff;
+      --footer-color: #888;
+    }
+
     body {
-      margin: 0; padding: 0;
+      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      background: var(--bg-color);
+      color: var(--text-color);
       display: flex;
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
       padding: 2rem;
     }
+
     h1 {
       font-size: 3rem;
-      margin-bottom: 0.2rem;
-      color: #2c3e50;
+      color: var(--primary-color);
       animation: jelly 0.6s ease forwards;
     }
+
     @keyframes jelly {
       0% { transform: scale(1, 1); }
       30% { transform: scale(1.25, 0.75); }
@@ -31,76 +41,107 @@
       75% { transform: scale(1.05, 0.95); }
       100% { transform: scale(1, 1); }
     }
-    p.intro {
+
+    .intro {
       font-size: 1.2rem;
-      max-width: 600px;
-      text-align: center;
-      line-height: 1.5;
-      margin-bottom: 3rem;
-      color: #555;
-    }
-    section {
       max-width: 700px;
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 2.5rem;
+      color: #444;
+    }
+
+    section {
+      max-width: 800px;
       width: 100%;
-      background: white;
+      background: var(--card-bg);
       border-radius: 12px;
       padding: 1.5rem 2rem;
-      box-shadow: 0 6px 12px rgb(0 0 0 / 0.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
       margin-bottom: 2rem;
     }
+
     section h2 {
       margin-top: 0;
-      color: #34495e;
-      border-bottom: 2px solid #e74c3c;
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--accent-color);
       padding-bottom: 0.3rem;
     }
+
     a {
-      color: #e74c3c;
+      color: var(--primary-color);
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     footer {
       font-size: 0.9rem;
-      color: #999;
+      color: var(--footer-color);
       margin-top: auto;
+      padding-top: 1rem;
     }
   </style>
 </head>
 <body>
 
-<h1>Kavana S</h1>
-<p class="intro">
-  🧊 Once, I studied the lattice structures of matter.<br/>
-  💻 Now, I build structures in code.<br/>
-  🧘‍♀️ Along the way, I began asking deeper questions about meaning, consciousness, and silence.<br/>
-  🪷 This is where physics, software, and spirituality meet — a journal of wonder, logic, and the unseen.
-</p>
+  <h1>Kavana S</h1>
 
-<section>
-  <h2>About Me</h2>
-  <p>Master’s in Solid State Physics | Software Developer | Curious Thinker | Tech Enthusiast.</p>
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:kavanasuresh2016@gmail.com">kavanasuresh2016@gmail.com</a><br/>
-     GitHub: <a href="https://github.com/kavanasrao" target="_blank">kavanasrao</a></p>
-</section>
-
-<section>
-  <h2>Blogs</h2>
-  <p>
-    📝 Medium: <a href="https://medium.com/@ks-rao" target="_blank">medium.com/@yourusername</a><br/>
-    📓 Notion: <a href="https://crystalline-output-3bf.notion.site/Home-Kaval-s-Reflections-20d2f9b0f87f80d3bdcedf2d584e1ee8?pvs=143" target="_blank">Notion Blog</a>
+  <p class="intro">
+    🧊 Once, I studied the lattice structures of matter.<br/>
+    💻 Now, I build structures in code.<br/>
+    🧘‍♀️ I ask deeper questions about meaning, consciousness, and silence.<br/>
+    🪷 A journal of logic, wonder, and the unseen.
   </p>
-</section>
 
-<footer>
-  — Kaval ✍️
-</footer>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Master’s in Solid State Physics | Software Developer | Curious Thinker | Tech Enthusiast
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📧 Email: <a href="mailto:kavanasuresh2016@gmail.com">kavanasuresh2016@gmail.com</a><br/>
+      💻 GitHub: <a href="https://github.com/kavanasrao" target="_blank">kavanasrao</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Blogs</h2>
+    <p>
+      📝 Medium: <a href="https://medium.com/@yourusername" target="_blank">medium.com/@yourusername</a><br/>
+      📓 Notion: <a href="https://www.notion.so/your-notion-blog-link" target="_blank">Notion Blog</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p>
+      ⚙️ Python, Java, JavaScript, HTML, CSS<br/>
+      🛠️ Django, Flask, SQL, Git, REST APIs<br/>
+      ☁️ Google Cloud, Firebase, BigQuery
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p>
+      📁 <strong>School Management System</strong> – A full-stack app with Django and MySQL<br/>
+      🌐 <strong>Portfolio Site</strong> – Clean and animated personal portfolio built with HTML/CSS/JS<br/>
+      🔍 <strong>API Explorer</strong> – Flask-based app that interacts with public APIs in real-time
+    </p>
+  </section>
+
+  <footer>
+    — Kaval ✍️
+  </footer>
 
 </body>
 </html>
+
 
